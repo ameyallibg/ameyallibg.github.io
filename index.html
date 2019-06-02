@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
                 integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
                 crossorigin="anonymous"> 
+                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+ 
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <script src="path/to/smooth-scroll.polyfills.min.js"></script>
@@ -17,9 +19,16 @@
 <body>
 
         <section class="scene">
+                <div style="    display: flex;
+                opacity: .7;
+                background: #232222;
+                height: 36em;
+                /* justify-content: center; */
+                align-items: center;">
+                <div class="presentacion">
                 <h1 class="title">Ameyalli Brito</h1>
                 <!-- <p class="check-out">Front End Developer</a></p> -->
-                <span class="parpadea text check-out"><strong> > Front End Developer</strong></span>
+                <p class="check-out"> Front End Developer</p>
                 
                 <p style="padding-left: 20%; padding-right:20%; color:white; font-size:1.5vw;" >Proactiva, Innovadora, analista.
                         Me encanta aprender nuevas
@@ -31,10 +40,12 @@
                        
                
                        
-                <a href="#proyectos" class="works" style="color:black;">Ve mi trabajo</a>
+                <a href="#proyectos" class="works parpadea text check-out" >Ve mi trabajo</a>
+        </div>
+        </div>
         </section>
         <nav style="position: sticky;
-        top: 0;     z-index: 100;">
+        top: 0;     z-index: 100; background:#232222;">
                 <div class="nav-wrapper">
                         <a href="#" class="brand-logo">AB</a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -42,49 +53,62 @@
                                 <li><a href="#proyectos">Proyectos</a></li>
                                 <li><a href="#contacto">Contacto</a></li>
                         </ul>
+
                 </div>
         </nav>
         <a name="skill">
         <div class="skills">
                 <div class="logo">
-                        <img style="width: 60%;" class="logowidth" src="./assets/js.png" alt="">
+                        <!-- <img style="width: 60%;" class="logowidth" src="./assets/js.png" alt=""> -->
+                        <i class="fab fa-js-square logowidth" ></i>
                 </div>
 
                 <div class="logo">
-                        <img style="width: 53%;" class="logowidth" src="./assets/html.png" alt="">
+                        <!-- <img style="width: 53%;" class="logowidth" src="./assets/html.png" alt=""> -->
+                        <i class="fab fa-html5 logowidth" ></i>
                 </div>
                 <div class="logo">
-                        <img style="width: 38%;" class="logowidth" src="./assets/css.png" alt="">
+                        <!-- <img style="width: 38%;" class="logowidth" src="./assets/css.png" alt=""> -->
+                        <i class="fab fa-css3 logowidth" ></i>
                 </div>
                 <div class="logo">
-                        <img style="width: 83%;" class="logowidth" src="./assets/reactname.png" alt="">
+                        <!-- <img style="width: 83%;" class="logowidth" src="./assets/reactname.png" alt=""> -->
+                        <i class="fab fa-react logowidth" ></i>
                 </div>
         </div>
         
         <div class="skills" >
                 <div class="logo">
-                        <img style="width: 100%;" class="logowidth" src="./assets/firebase.png" alt="">
+                        <!-- <img style="width: 100%;" class="logowidth" src="./assets/firebase.png" alt=""> -->
+                        <i class="fab fa-node logowidth" ></i>
                 </div>
                 <div class="logo">
-                        <img style="width: 56%;" class="logowidth" src="./assets/node.png" alt="">
+                        <!-- <img style="width: 56%;" class="logowidth" src="./assets/node.png" alt=""> -->
+                        <i class="fab fa-npm logowidth" ></i>
                 </div>
                 <div class="logo">
-                        <img style="width: 48%;" class="logowidth" src="./assets/npm.png" alt=""> </div>
+                        <!-- <img style="width: 48%;" class="logowidth" src="./assets/npm.png" alt="">  -->
+                        <i class="fab fa-github logowidth" ></i>
+                </div>
                 <div class="logo">
-                        <img style="width: 35%;" class="logowidth" src="./assets/git.png" alt="">
+                        <!-- <img style="width: 35%;" class="logowidth" src="./assets/git.png" alt=""> -->
+                        <i class="fab fa-git logowidth" ></i>
                 </div>
 
         </div>
         <div class="skills">
                 <div class="logo">
-                        <img style="width: 32%;" class="logowidth" src="./assets/github.png" alt="">
+                        <!-- <img style="width: 32%;" class="logowidth" src="./assets/github.png" alt=""> -->
+                        <i class="fab fa-bootstrap logowidth" ></i>
 
                 </div>
                 <div class="logo">
-                        <img style="width: 48%;" class="logowidth" src="./assets/bootstrap.png" alt="">
+                        <!-- <img style="width: 48%;" class="logowidth" src="./assets/bootstrap.png" alt=""> -->
+                        <i class="fab fa-linux logowidth" ></i>
                 </div>
                 <div class="logo">
-                        <img style="width: 42%;" class="logowidth" src="./assets/materialize.png" alt="">
+                        <!-- <img style="width: 42%;" class="logowidth" src="./assets/materialize.png" alt=""> -->
+                        <i class="fab fa-ubuntu logowidth" ></i>
                 </div>
         </div>
 </a>
