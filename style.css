@@ -60,11 +60,11 @@ background: #2e2e2ec4
     background: #2e2e2e;
 }
 .logo{
-        /* width: 100%; */
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         /* display: block; */
-        /* display: flex; */
+        display: flex;
     
 }
 .logowidth{
@@ -206,7 +206,7 @@ background: #2e2e2ec4
   color: white;
   /* padding: 2%; */
   /* margin-top: 3%; */
-  padding-left: 5%;
+  
   padding-top: 1%;
   padding-bottom: 1%;
   font-family: test;
@@ -225,4 +225,15 @@ background: #2e2e2ec4
 }
 .color-white{
   color: white;
+}
+
+.logo:hover{
+  
+  transform: rotate(-5deg);
+
+  -webkit-transform: rotate(-5deg);
+
+  -moz-transform: rotate(-5deg);
+
+  -o-transform: rotate(-5deg);
 }
