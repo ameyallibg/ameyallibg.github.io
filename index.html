@@ -11,6 +11,7 @@
  
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="path/to/smooth-scroll.polyfills.min.js"></script>
 </head>
 
@@ -46,6 +47,7 @@
         top: 0;     z-index: 100; background:#232222;">
                 <div class="nav-wrapper">
                         <a href="#" class="brand-logo">AB</a>
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
                                 <li><a href="#skill">Skills</a></li>
                                 <li><a href="#proyectos">Proyectos</a></li>
@@ -54,6 +56,11 @@
 
                 </div>
         </nav>
+        <ul class="sidenav" id="mobile-demo">
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+              </ul>
         <a name="skill">
                 <div class="skills">SKILLS</div>
                         <div class="col s12 m7 div-card">
