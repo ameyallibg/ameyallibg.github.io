@@ -5,7 +5,8 @@
 }
 html,body {
 margin: 0px;
-background: #2e2e2ec4
+background: #2e2e2ec4;
+scroll-behavior: smooth;
 }
 .scene {
     
