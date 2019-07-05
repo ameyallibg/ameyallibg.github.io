@@ -16,10 +16,11 @@ scroll-behavior: smooth;
     /* padding: 10%; */
     text-align: center;
     flex-direction: column;
-    background-image: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/article/cover/2018/11/29/mujer-programando-en-computadora.jpg?itok=vNUHetyt)
-}
+    background-image: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/article/cover/2018/11/29/mujer-programando-en-computadora.jpg?itok=vNUHetyt);
+    background-size:cover;
+  }
 .title {
-  font-size: 7vw;
+  font-size: 6vw;
   /* line-height: 110%; */
   /* padding-top: 1em; */
   /* margin: 0px; */
@@ -34,7 +35,7 @@ scroll-behavior: smooth;
     /* bottom: 1rem; */
     /* left: 50%; */
     /* transform: translateX(-50%); */
-    font-size: 3vw;
+    font-size: 2.5vw;
     color: #fff;
     font-family: test;
     /* padding-top: 10%; */
@@ -42,7 +43,7 @@ scroll-behavior: smooth;
 }
 .works{
     font-family: test;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 
     border-style: solid;
 
@@ -142,7 +143,7 @@ scroll-behavior: smooth;
     }
 
     .text {
-        font-size:2vw;
+        font-size:1.5vw;
         
         font-weight:bold;
         color:white;
@@ -237,4 +238,7 @@ scroll-behavior: smooth;
   -moz-transform: rotate(-5deg);
 
   -o-transform: rotate(-5deg);
+}
+.color{
+  background-color:#2d2c2c !important;
 }
