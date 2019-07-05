@@ -242,3 +242,7 @@ scroll-behavior: smooth;
 .color{
   background-color:#2d2c2c !important;
 }
+
+.font-size-cinco{
+  font-size: 1.3vw;
+}
