@@ -73,8 +73,7 @@ scroll-behavior: smooth;
   
   margin-left: auto;
   margin-right: auto;
-  display: block;
-  /* width: 0%; */
+
   color:#ffffff;
   font-size: 5vw;
   padding: .2em;
@@ -190,7 +189,7 @@ scroll-behavior: smooth;
 }
 
 .div-card{
-  margin: 5%;
+  margin: 3%;
   background: #2e2e2e;
 }
 
