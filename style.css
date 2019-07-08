@@ -58,7 +58,7 @@ scroll-behavior: smooth;
 .skills{
     display:flex;
     align-items: center;
-
+    
     background: #2e2e2e;
 }
 .logo{
@@ -207,7 +207,7 @@ scroll-behavior: smooth;
   color: white;
   /* padding: 2%; */
   /* margin-top: 3%; */
-  
+  padding-left: 3%;
   padding-top: 1%;
   padding-bottom: 1%;
   font-family: test;
@@ -245,4 +245,7 @@ scroll-behavior: smooth;
 
 .font-size-cinco{
   font-size: 1.3vw;
+}
+.nav-padding{
+  padding-right: 3%;
 }
