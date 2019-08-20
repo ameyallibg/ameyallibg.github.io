@@ -249,3 +249,68 @@ scroll-behavior: smooth;
 .nav-padding{
   padding-right: 3%;
 }
+.projects{
+  display:flex;
+  
+}
+
+.about-me{
+  padding-left: 20%; padding-right:20%; color:#e8e8e8; font-size:1.3vw ; font-family: 'Roboto', sans-serif;
+  
+}
+.projects-mobile{
+  display:none
+}
+.bootstrap-logo{
+  width: 35%;  
+  height: auto;
+
+}
+.materialize-logo{
+  width: 50%;
+  height: auto;
+}
+
+
+@media (max-width: 400px) { 
+
+  .title
+  {
+    font-size:14vw;
+
+
+  }
+  .projects{
+    display:none;
+    
+  }
+
+  .check-out{
+    font-size: 6vw;
+  }
+  .about-me{
+    display:none; 
+  }
+  .projects-mobile{
+    display:block
+  }
+  .title-skills{
+    font-size: 5.5vw;
+  }
+
+  .logowidth{
+    font-size: 12vw;
+    
+  }
+  .bootstrap-logo{
+    width: 85%;  
+    height: auto;
+  
+  }
+  .materialize-logo{
+    width: 100%;
+    height: auto;
+  }
+  
+
+ }
