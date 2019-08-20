@@ -311,6 +311,9 @@ scroll-behavior: smooth;
     width: 100%;
     height: auto;
   }
+  .skills{
+    font-size: 6.5vw;
+  }
   
 
  }
