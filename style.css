@@ -66,7 +66,8 @@ scroll-behavior: smooth;
     color: white;
     font-size:2.5vw;
     margin-left: 4%;
-    margin-top: 2%;
+    /* margin-top: 2%; */
+    padding-top: 3%;
     
     
     /* background: #2e2e2e; */
@@ -83,7 +84,7 @@ scroll-behavior: smooth;
   
   margin-left: auto;
   margin-right: auto;
-  color: #595959;
+ color: #cdc8c8;
   font-size: 5vw;
   padding: .2em;
   border-style: solid;
@@ -93,6 +94,7 @@ scroll-behavior: smooth;
 .logowidth:hover{
   border-style: solid;
   border-color:#dd31ef;
+  color:white;
   
 }
 
@@ -150,10 +152,10 @@ scroll-behavior: smooth;
       padding-left: -5%;
       padding-right: -5%;
       padding-left: 0%;
-      
-      padding: 6%;
-      padding-left: 0%;
-      margin-left: -5%;
+     
+      /* padding-left: 0%; */
+      /* margin-left: -5%; */
+      width: 50%;
     }
 
     .text {
@@ -214,7 +216,7 @@ scroll-behavior: smooth;
 }
 .back-color{
   /* background:#2e2e2e */
-  background: #232222
+  /* background: #232222 */
 }
 .skills{
   font-size: 2.5vw;
@@ -245,6 +247,7 @@ scroll-behavior: smooth;
 }
 
 .logo:hover{
+  color:white;
   
   transform: rotate(-5deg);
 
@@ -279,6 +282,8 @@ scroll-behavior: smooth;
   color: #797171;
   
   font-family: monospace;
+  margin-top: 20%;
+  margin-bottom: 10%;
 }
 .projects-mobile{
   display:none
@@ -329,11 +334,26 @@ scroll-behavior: smooth;
   visibility: visible;
 }
 
-
-
-
+.down-cv{
+  border-color: purple;
+  border-radius: 8px;
+  background: #4d8d99;
+  /* padding-left: 2%; */
+  /* padding-right: 2%; */
+  margin-left: 35%;
+  color: white;
+  padding: 2%;
 
 }
+
+.back-contacto{
+  background-image: url(./assets/2611227.jpg);
+        height: 40em;
+        background-size: cover;
+}
+
+
+
 
 
 
