@@ -6,7 +6,7 @@
 
 html,body {
 margin: 0px;
-background: #2e2e2ec4;
+background: #111;
 scroll-behavior: smooth;
 }
 .scene {
@@ -59,11 +59,15 @@ scroll-behavior: smooth;
 
     
 }
-.skills{
+.nav-skills{
     display:flex;
     align-items: center;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size:2.5vw;
     
-    background: #2e2e2e;
+    
+    /* background: #2e2e2e; */
 }
 .logo{
         width: 100%;
@@ -77,17 +81,16 @@ scroll-behavior: smooth;
   
   margin-left: auto;
   margin-right: auto;
-
-  color:#ffffff;
+  color: #595959;
   font-size: 5vw;
   padding: .2em;
   border-style: solid;
-  border-color: #2e2e2e;
+  border-color: #111111;
 
 }
 .logowidth:hover{
   border-style: solid;
-  border-color:chartreuse;
+  border-color:#dd31ef;
   
 }
 
@@ -213,14 +216,15 @@ scroll-behavior: smooth;
 }
 .skills{
   font-size: 2.5vw;
-  background: #2e2e2ed6;
+  /* background: #2e2e2ed6; */
   color: white;
   /* padding: 2%; */
   /* margin-top: 3%; */
-  padding-left: 3%;
-  padding-top: 1%;
+  /* padding-left: 3%; */
+  padding-top: 5%;
   padding-bottom: 1%;
-  font-family: test;
+  font-family: 'Dancing Script', cursive;
+  display:flex;
 }
 
 .contacto{
