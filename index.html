@@ -10,6 +10,7 @@
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animate.css">
         <link rel="stylesheet" href="animation.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -66,18 +67,18 @@ align-items: center;">
 </section>
 
 <div style=" background-image:url(assets/bacn-about.png);     background-size: cover;
-background-repeat: no-repeat; height: 43em; display:flex">
+background-repeat: no-repeat; height: 45em; display:flex">
   <div style="    width: 100%;
   text-align: center;
   margin-top: auto;
   margin-bottom: auto;">
   <p style="        font-family: 'Dancing Script', cursive;
   font-size: 4vw;
-  color: #96659b;" >Acerca de mi </p>
+  color: #96659b;     margin-top: -10%;" >Acerca de mi </p>
   <img id="ame-img" src="/assets/ame_bg.jpeg"  class="img-ame  ocultar animated " alt="Smiley face" width="19%">
   </div> 
 <div style="width:100%; margin-top:auto; margin-bottom:auto;"> 
-  <p id="p-about" class="about-me ocultar animated "  >Proactiva, innovadora, analista.
+  <p id="p-about" class="about-me ocultar animated " style="margin-top: -2%;" >Proactiva, innovadora, analista.
     Me encanta aprender nuevas
     cosas relacionadas al mundo
     tech, y desarrollar proyectos
@@ -86,10 +87,10 @@ background-repeat: no-repeat; height: 43em; display:flex">
     técnicas de desarrollo</p>
     
 
-
-      <a href="./assets/CV_AYBG.pdf"  class="down-cv"  download="CV_AmeyalliBG" title="CV">
+<div  class="animated floating ">
+      <a href="./assets/CV_AYBG.pdf"   class="down-cv "  download="CV_AmeyalliBG" title="CV">
               Descarga mi CV</a>
-    
+    </div>
   </div>
 
 
@@ -100,7 +101,7 @@ background-repeat: no-repeat; height: 43em; display:flex">
            
     <div class="nav-skills">Skills</div>
 
-    <div style=" margin-left:15%; margin-right:20%; margin-bottom:10%;"> 
+    <div id="skills-box" style=" margin-left:15%; margin-right:20%; margin-bottom:10%;"> 
 
                                         
          
@@ -467,29 +468,30 @@ background-repeat: no-repeat; height: 43em; display:flex">
           Te invito a visitar mi Github y revisar mas a detalle mis proyectos.</p>
         
         <div class="links" style="    text-align: center; padding: 3%;">
+          
 
-        <a href="https://github.com/ameyallibg/" target="_blank" class="contacto"
+        <a href="https://github.com/ameyallibg/" target="_blank" class="contacto "
             >
             <!-- <img  src="./assets/linkedin.png" alt="" style="width: 10%;"> -->
-            <i class="fab fa-github-square"></i>
+            <i class="fab fa-github-square contacto-icons"></i>
     
          </a></br>
         
-        <a href="https://www.linkedin.com/in/ameyallibg/" target="_blank" class="contacto"
+        <a href="https://www.linkedin.com/in/ameyallibg/" target="_blank" class="contacto "
         >
         <!-- <img  src="./assets/linkedin.png" alt="" style="width: 10%;"> -->
-        <i class="fab fa-linkedin" ></i>
+        <i class="fab fa-linkedin contacto-icons" ></i>
 
         </a></br>
         <!-- <p style="font-size:2vw; color:white; text-align: center">Correo</p> -->
-        <a href="mailto:bgameyalli@gmail.com" target="_blank" class="contacto">
+        <a href="mailto:bgameyalli@gmail.com" target="_blank" class="contacto ">
          <!-- <img  src="./assets/gmail.png" alt="" style="width: 10%;"> -->
-         <i class="fas fa-envelope-square" ></i>
+         <i class="fas fa-envelope-square contacto-icons" ></i>
         </a></br>
 
         
-    <a href="https://api.whatsapp.com/send?phone=5513498914" class="contacto">
-      <i class="fab fa-whatsapp-square"></i>
+    <a href="https://api.whatsapp.com/send?phone=5513498914" class="contacto ">
+      <i class="fab fa-whatsapp-square contacto-icons"></i>
 
         <!-- <p style="font-size:2vw; color:white; text-align: center">Mi CV</p> -->
        

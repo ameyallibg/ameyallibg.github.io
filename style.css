@@ -353,7 +353,11 @@ scroll-behavior: smooth;
 }
 
 
+#skills-box{
 
+  visibility: hidden;
+
+}
 
 
 

@@ -27,6 +27,31 @@ $(window).scroll(function() {
 });
 
 
+$(window).scroll(function() {
+  $('#skills-box').each(function(){
+  var imagePos = $(this).offset().top;
+
+  var topOfWindow = $(window).scrollTop();
+    if (imagePos < topOfWindow+400) {
+      $(this).addClass("fadeIn");
+      $(this).addClass("mostrar");
+    }
+  });
+});
+
+$(window).scroll(function() {
+  $('.contacto-icons').each(function(){
+  var imagePos = $(this).offset().top;
+
+  var topOfWindow = $(window).scrollTop();
+    if (imagePos < topOfWindow+400) {
+      $(this).addClass("tossing");
+     
+    }
+  });
+});
+
+
 
 $(document).ready(function(){
   $('.sidenav').sidenav();
