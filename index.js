@@ -15,12 +15,12 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-  $('#about-me').each(function(){
+  $('#p-about').each(function(){
   var imagePos = $(this).offset().top;
 
   var topOfWindow = $(window).scrollTop();
     if (imagePos < topOfWindow+400) {
-      $(this).addClass("fadeInUp");
+      $(this).addClass("fadeInRight");
       $(this).addClass("mostrar");
     }
   });
