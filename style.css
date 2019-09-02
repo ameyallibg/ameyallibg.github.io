@@ -65,6 +65,8 @@ scroll-behavior: smooth;
     font-family: 'Dancing Script', cursive;
     color: white;
     font-size:2.5vw;
+    margin-left: 4%;
+    margin-top: 2%;
     
     
     /* background: #2e2e2e; */
@@ -295,8 +297,9 @@ scroll-behavior: smooth;
   color: white;
   margin: 10%;
   padding: 5%;
-  border-style: solid;
-  background: #303030;
+  /* border-style: solid; */
+  font-family: monospace;
+  /* background: #303030; */
 }
 .works-right{
   font-family: test;
