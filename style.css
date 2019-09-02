@@ -3,31 +3,32 @@
   src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/Anders.ttf');
   font-family: test;
 }
+
 html,body {
 margin: 0px;
 background: #2e2e2ec4;
 scroll-behavior: smooth;
 }
 .scene {
-    
-    
-    height: 100vh;
-    background: #1d1f20;
-    /* padding: 10%; */
-    text-align: center;
-    flex-direction: column;
-    background-image: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/article/cover/2018/11/29/mujer-programando-en-computadora.jpg?itok=vNUHetyt);
-    background-size:cover;
+  
+  height: 100vh;
+  background: #1d1f20;
+  /* padding: 10%; */
+  text-align: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #362436 0%, #1e1d1d 50%, #0e0e0e 100%);
+   /* background-image: url(https://www.telemundo.com/sites/nbcutelemundo/files/styles/article_cover_image/public/images/article/cover/2018/11/29/mujer-programando-en-computadora.jpg?itok=vNUHetyt); */
+  background-size:cover;
   }
 .title {
-  font-size: 6vw;
+  font-size: 6.5vw;
   /* line-height: 110%; */
   /* padding-top: 1em; */
   /* margin: 0px; */
-  font-family: test;
+  font-family: 'Dancing Script', cursive;
   color: white;
   margin-bottom: .5em;
-  margin-top: 0px;
+  margin-top: 10%;
 }
 .check-out {
     /* z-index: 100; */
@@ -37,23 +38,26 @@ scroll-behavior: smooth;
     /* transform: translateX(-50%); */
     font-size: 2.5vw;
     color: #fff;
-    font-family: test;
+    font-family: monospace;
     /* padding-top: 10%; */
     /* padding-top: 2em; */
 }
 .works{
-    font-family: test;
-    font-size: 1.3vw;
+  font-family: arial;
+  font-size: 1.3vw;
 
-    border-style: solid;
-
-
-    padding: .5em;
-    border-color: #79ee03;
-    /* margin-top: 10%; */
+  border-style: solid;
 
 
-    font-weight: bold;
+  padding: .5em;
+  border-color: #dd31ef;
+  /* margin-top: 10%; */
+
+
+  font-weight: bold;
+
+
+    
 }
 .skills{
     display:flex;
@@ -137,16 +141,20 @@ scroll-behavior: smooth;
     }
 
     .links{
-        height: 300px;
-        /* background-color: #7f1660; */
+      text-align: center;
+      padding-left: -5%;
+      padding-right: -5%;
+      padding-left: 0%;
+      
+      padding: 6%;
+      padding-left: 0%;
+      margin-left: -5%;
     }
 
     .text {
-        font-size:1.5vw;
-        
-        font-weight:bold;
-        color:white;
-        text-transform:uppercase;
+               
+        font-weight: bold;
+        /* text-transform:uppercase; */
       }
       .parpadea {
         
@@ -178,14 +186,16 @@ scroll-behavior: smooth;
          50% { opacity: 0.0; }
         100% { opacity: 1.0; }
       }
-
+.title:hover{
+  font-size:14wv;
+}
 .presentacion{
- 
   flex-direction:column;
   justify-content: center;
-  width: 80%;
+  /* width: 80%; */
   margin-left: auto;
   margin-right: auto;
+  /* visibility: hidden; */
 }
 
 .div-card{
@@ -214,7 +224,7 @@ scroll-behavior: smooth;
 }
 
 .contacto{
-  font-size: 10vw;
+  font-size: 6vw;
   color:white;
 }
 .card-style{
@@ -239,12 +249,14 @@ scroll-behavior: smooth;
   -o-transform: rotate(-5deg);
 }
 .color{
-  background-color:#2d2c2c !important;
+  background-color:#2d2c2c14 !important;
   box-shadow:block !important;
 }
 
 .font-size-cinco{
+  font-weight: bold;
   font-size: 1.3vw;
+  color: #dd31ef;
 }
 .nav-padding{
   padding-right: 3%;
@@ -255,8 +267,12 @@ scroll-behavior: smooth;
 }
 
 .about-me{
-  padding-left: 20%; padding-right:20%; color:#e8e8e8; font-size:1.3vw ; font-family: 'Roboto', sans-serif;
+  font-size: 1.3vw;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: #797171;
   
+  font-family: monospace;
 }
 .projects-mobile{
   display:none
@@ -270,6 +286,49 @@ scroll-behavior: smooth;
   width: 50%;
   height: auto;
 }
+.p-contacto{
+  font-size: 1.5vw;
+  color: white;
+  margin: 10%;
+  padding: 5%;
+  border-style: solid;
+  background: #303030;
+}
+.works-right{
+  font-family: test;
+    font-size: 1.5vw;
+    border-style: solid;
+    padding: .5em;
+    /* border-color: #79ee03; */
+    /* margin-top: 10%; */
+    
+    padding-right: 2.5px;
+    margin-right: -135%;
+    border-right-style: none;
+}
+.hover:hover{
+  width:100%!important;
+}
+.img-ame{
+  border-radius: 100%;
+  width: 50%;
+}
+
+.ocultar{
+  visibility: hidden
+}
+
+.mostrar{
+  visibility: visible;
+}
+
+
+
+
+
+}
+
+
 
 
 @media (max-width: 400px) { 
@@ -290,6 +349,7 @@ scroll-behavior: smooth;
   }
   .about-me{
     display:none; 
+
   }
   .projects-mobile{
     display:block

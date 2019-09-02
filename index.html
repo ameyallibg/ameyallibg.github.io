@@ -8,65 +8,87 @@
         <title>AYBG</title>
 
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
- 
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="animation.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Righteous|Roboto|Roboto+Condensed|Roboto+Mono&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        </head>
+        
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Allura|Great+Vibes|Homemade+Apple|Marck+Script|Nothing+You+Could+Do|Parisienne|Pinyon+Script|Sacramento|Tangerine|Yesteryear&display=swap" rel="stylesheet">
+     
+      </head>
 
 <body>
+   
+  <section class="scene">
+    <nav style="position: fixed; z-index:100;
+    background: rgba(0,0,0,0); box-shadow: none!important;">
+          <div class="nav-wrapper">
+                  <a href="#!" class="brand-logo"></a>
+                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down nav-padding">
+                          <li ><a class="font-size-cinco" href="#skill">Skills</a></li>
+                          <li ><a class="font-size-cinco"href="#proyectos">Proyectos</a></li>
+                          <li ><a class="font-size-cinco"href="#contacto">Contacto</a></li>
+                  </ul>
 
-        <section class="scene">
-                        <nav style="position: fixed; z-index:100;
-                        background: rgba(0,0,0,0); box-shadow: none!important;">
-                              <div class="nav-wrapper">
-                                      <a href="#!" class="brand-logo"></a>
-                                      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                                      <ul id="nav-mobile" class="right hide-on-med-and-down nav-padding">
-                                              <li ><a class="font-size-cinco" href="#skill">Skills</a></li>
-                                              <li ><a class="font-size-cinco"href="#proyectos">Proyectos</a></li>
-                                              <li ><a class="font-size-cinco"href="#contacto">Contacto</a></li>
-                                      </ul>
-              
-                              </div>
-                      </nav>
-                      <ul class="sidenav" id="mobile-demo">
-                                 <li><a href="#skill">Skills</a></li>
-                                 <li><a href="#proyectos">Proyectos</a></li>
-                                 <li><a href="#contacto">Contacto</a></li>
-                               </ul>
+          </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+             <li><a href="#skill">Skills</a></li>
+             <li><a href="#proyectos">Proyectos</a></li>
+             <li><a href="#contacto">Contacto</a></li>
+           </ul>
 
-                <div style="display:flex;
-                opacity: .7;
-                background: #232222;
-                height: 100vh;
-                /* justify-content: center; */
-                align-items: center;">
+<div style="display:flex;
+/* opacity: .7; */
+/* background: #232222; */
+height: 100vh;
+/* justify-content: center; */
+align-items: center;">
 
 
-                <div class="presentacion">
-                <h1 class="title">Ameyalli Brito</h1>
-                <!-- <p class="check-out">Front End Developer</a></p> -->
-                <p class="check-out"> Front End Developer</p>
-                
-                <p class="about-me" >Proactiva, innovadora, analista.
-                        Me encanta aprender nuevas
-                        cosas relacionadas al mundo
-                        tech, y desarrollar proyectos
-                        propios para expander mis
-                        habilidades y aprender nuevas
-                        técnicas de desarrollo</p>
-                       
+<div class=" presentacion ">
+<h1 class="title  animated fadeInDown delay-1s ">Ameyalli Brito</h1>
+<!-- <p class="check-out">Front End Developer</a></p> -->
+<p class="check-out animated fadeInDown delay-2s"> Front End Developer</p>
+
+  
+
+<div  class="animated fadeInUp delay-3s"; style=" margin-top: 20%;">
+<a href="#proyectos" class="  works parpadea text check-out" > Proyectos</a>
+</div>
+</div>
+</div>
+</section>
+
+<div style=" background-image:url(assets/bacn-about.png);     background-size: cover;
+background-repeat: no-repeat; height: 40em; display:flex">
+  <div style="    width: 100%;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;">
+  <p style="        font-family: 'Dancing Script', cursive;
+  font-size: 4vw;
+  color: #96659b;" >Acerca de mi </p>
+  <img id="ame-img" src="/assets/ame_bg.jpeg"  class="img-ame  ocultar animated " alt="Smiley face" width="19%">
+  </div> 
+<div style="width:100%; margin-top:auto; margin-bottom:auto;"> 
+  <p id="about-me" class="about-me ocultar animated fadeInRight  >Proactiva, innovadora, analista.
+    Me encanta aprender nuevas
+    cosas relacionadas al mundo
+    tech, y desarrollar proyectos
+    propios para expander mis
+    habilidades y aprender nuevas
+    técnicas de desarrollo</p>
+  </div>
+
+
+</div>
                
-                <div style="margin-top: 5%;">
-                <a href="#proyectos" class="works parpadea text check-out" >Proyectos</a>
-                </div>
-        </div>
-        </div>
-        </section>
-
 
         <a name="skill">
                 <div class="skills">SKILLS</div>
@@ -441,7 +463,12 @@
 </a>
 <a name="contacto">
 
+
         <div class="skills">CONTACTO</div>
+        <div style="display:flex">
+        
+        <p class="p-contacto">Si quieres ponerte en contacto conmigo puedes hacerlo por los siguientes medios.</br> Tambien puedes descargar mi CV</p>
+        
         <div class="links" style="    text-align: center; padding: 3%;">
         
         <a href="https://www.linkedin.com/in/ameyallibg/" target="_blank" class="contacto"
@@ -449,7 +476,7 @@
         <!-- <img  src="./assets/linkedin.png" alt="" style="width: 10%;"> -->
         <i class="fab fa-linkedin" ></i>
 
-</a>
+        </a>
         <!-- <p style="font-size:2vw; color:white; text-align: center">Correo</p> -->
         <a href="mailto:bgameyalli@gmail.com" target="_blank" class="contacto">
          <!-- <img  src="./assets/gmail.png" alt="" style="width: 10%;"> -->
@@ -457,9 +484,15 @@
         </a>
 
         <!-- <p style="font-size:2vw; color:white; text-align: center">Mi CV</p> -->
-       <a href="./assets/CV_AYBG.pdf"   download="CV_AmeyalliBG" title=""CV>
-       <img  src="./assets/approved.png" alt="" style="width: 10%;" class="contacto"> </a> 
+       
+
+       <a href="https://api.whatsapp.com/send?phone=5513498914"  class="contacto">
+        <i class="fab fa-whatsapp-square"></i>
+
+        <a href="./assets/CV_AYBG.pdf"   download="CV_AmeyalliBG" title="CV">
+                <img  src="./assets/approved.png" alt="" style="width: 10%;" class="contacto"> </a> 
        </div>
+</div>
 </a>
 
 </div>
