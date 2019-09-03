@@ -214,10 +214,7 @@ scroll-behavior: smooth;
   font-size: 1.5vw;
     color: white;
 }
-.back-color{
-  /* background:#2e2e2e */
-  /* background: #232222 */
-}
+
 .skills{
   font-size: 2.5vw;
   /* background: #2e2e2ed6; */
@@ -294,9 +291,7 @@ scroll-behavior: smooth;
   margin-top: 20%;
   margin-bottom: 10%;
 }
-.projects-mobile{
-  display:none
-}
+
 .bootstrap-logo{
   width: 35%;  
   height: auto;
@@ -371,17 +366,13 @@ scroll-behavior: smooth;
 
 
 
-@media (max-width: 400px) { 
+@media (max-width: 500px) { 
 
   .title
   {
     font-size:14vw;
 
 
-  }
-  .projects{
-    display:none;
-    
   }
 
   .check-out{
@@ -391,9 +382,10 @@ scroll-behavior: smooth;
     display:none; 
 
   }
-  .projects-mobile{
-    display:block
-  }
+.projects{
+  flex-direction:column;
+
+}
   .title-skills{
     font-size: 5.5vw;
   }
@@ -414,6 +406,11 @@ scroll-behavior: smooth;
   .skills{
     font-size: 6.5vw;
   }
-  
+  .card-style{
+  width: 94%;
+  margin:3%;
+ 
+}
+
 
  }
