@@ -360,7 +360,22 @@ scroll-behavior: smooth;
 #skills-box{
 
   visibility: hidden;
+  margin-left: 5%;
+    margin-right: 5%;
+     margin-bottom: 10%;
 
+}
+.div-about-me{
+  background-image:url(assets/bacn-about.png);  
+  background-size: cover;
+ background-repeat: no-repeat; 
+ display:flex
+}
+
+.title-about-me{
+  font-family: 'Dancing Script', cursive;
+  font-size: 4vw;
+  color: #96659b;
 }
 
 
@@ -375,13 +390,19 @@ scroll-behavior: smooth;
 
   }
 
+  .title-about-me{
+    font-size:9vw;
+  }
+
   .check-out{
     font-size: 6vw;
   }
-  .about-me{
-    display:none; 
 
-  }
+.about-me{
+  font-size: 3.3vw;
+  margin-top:0%;
+}
+ 
 .projects{
   flex-direction:column;
 
@@ -412,5 +433,11 @@ scroll-behavior: smooth;
  
 }
 
+.div-about-me{
+  flex-direction: column;
+}
+.download-cv{
+  margin-bottom: 15%;
+}
 
  }
