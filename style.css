@@ -152,9 +152,10 @@ scroll-behavior: smooth;
       padding-left: -5%;
       padding-right: -5%;
       padding-left: 0%;
-     
-      /* padding-left: 0%; */
-      /* margin-left: -5%; */
+      display: flex;
+      /* text-align: center; */
+      padding: 3%;
+      flex-direction:column;
       width: 50%;
     }
 
@@ -378,7 +379,13 @@ scroll-behavior: smooth;
   color: #96659b;
 }
 
-
+.skills-container{
+  display:flex;
+  
+}
+.a-contacto{
+  width:50%;
+}
 
 
 @media (max-width: 500px) { 
@@ -439,5 +446,24 @@ scroll-behavior: smooth;
 .download-cv{
   margin-bottom: 15%;
 }
+.nav-skills{
+  font-size: 7.5vw;
+}
 
+.skills-container{
+  flex-direction: column;
+  
+}
+
+.a-contacto{
+  width:100%;
+}
+
+.contacto{
+  margin: 3%
+}
+
+.links{
+  flex-direction:row;
+}
  }
