@@ -238,6 +238,15 @@ scroll-behavior: smooth;
 .card-style{
   width: 33.33%;
   margin:3%;
+ 
+}
+
+.card-style-left{
+  visibility: hidden;
+}
+
+.card-style-right{
+  visibility: hidden;
 }
 .back-gray{
   background: #2e2e2e;
@@ -348,7 +357,7 @@ scroll-behavior: smooth;
 
 .back-contacto{
   background-image: url(./assets/2611227.jpg);
-        height: 40em;
+        
         background-size: cover;
 }
 
